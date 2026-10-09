@@ -11732,3 +11732,11 @@ html {
     left: -2vw;
   }
 }
+/* Foto profilo normale (non scontornata): riempie il riquadro */
+.profile .profile-img {
+  height: 100%;
+  max-height: none;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
